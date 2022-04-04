@@ -1,0 +1,80 @@
+/*google font font familys: font-family: 'Changa', sans-serif;
+font-family: 'Dr Sugiyama', cursive;
+font-family: 'Sacramento', cursive; 
+colorwheel kleuren: roze: #D42B5F groen: #2BD4A0
+*/
+body{
+    background-image: linear-gradient(90deg,#F7DAE3, #DAF7EE);
+    margin:0px;
+    padding:0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    height: 70px;
+}
+.navigatie{
+    top:0;
+    position: fixed;
+    width:100%;
+    display: block;
+    height:70px;
+    background-color: #D42B5F;
+    font-family: 'Changa', sans-serif;
+}
+
+.navigatie ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigatie li{
+    float: right;
+}
+
+.navigatie li a{
+    display: inline-block;
+    text-align: center;
+    padding:14px 16px;
+}
+
+.navigatie li a:hover{
+    background-color: #811A3A;
+    height: 40px;
+}
+
+a{
+    color:#2BD4A0;
+    text-decoration: none;
+}
+.footer{
+    background-color: #D42B5F;
+    color: #2BD4A0;
+    text-align: center;
+    margin-top: auto;
+}
+#ma_rise{
+    padding: 100px;
+    text-align: center;
+    line-height:15px;
+    font-size: small;
+    font-family: 'Changa', sans-serif;
+    color:#15664D;
+}
+
+#img_ma{
+    width: 30%;
+    border-radius: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table,th{
+    border:#15664D 5px, solid;
+}
+
+#werk_opleiding{
+    padding: 150px;
+}
